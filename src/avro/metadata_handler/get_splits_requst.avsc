@@ -1,0 +1,11 @@
+{
+  "namespace": "com.amazonaws.athena.connector.lambda.metadata",
+  "type": "record",
+  "name": "GetSplitsRequest",
+  "fields": [
+    { 
+      "type": "com.amazonaws.athena.connector.lambda.domain.predicate.Constraints", 
+      "name": "constraints" 
+    }
+  ]
+}

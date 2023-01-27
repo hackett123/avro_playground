@@ -1,0 +1,10 @@
+{
+  "namespace": "com.amazonaws.athena.connector.lambda.domain.predicate",
+  "type": "record",
+  "name": "Constraints",
+  "fields": [
+    {
+      "type": "long", "name": "limit", "default": -1
+    }
+  ]
+}
